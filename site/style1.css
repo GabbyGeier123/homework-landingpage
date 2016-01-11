@@ -1,0 +1,130 @@
+    @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic');
+    #top {
+        font-family: 'Open Sans', sans-serif;
+        background-image: url("images 1/header_bg.jpg");
+        background-position: center;
+        background-position: no-repeat;
+        text-align: center;
+        background-size: 100% 100%;
+    }
+    #middle {
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f0efef;
+        padding: 10px;
+        text-align: center;
+    }
+    h1 {
+        font-weight: 800;
+        font-size: 24px;
+        color: white;
+        text-align: left;
+        padding-left: 100px;
+    }
+    p.header {
+        font-weight: 600;
+        font-size: 24px;
+        text-align: center;
+        color: white;
+        padding: 30px 10px;
+    }
+    h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 900;
+        font-size: 14px;
+        text-align: center;
+        background-color: #f9e42e;
+        color: #033048;
+        border-radius: 5px;
+        width: 100px;
+        padding: 10px 40px;
+        margin: auto;
+    }
+    h3 {
+        font-weight: 600;
+        font-size: 20px;
+        text-align: left;
+        color: #033048;
+        padding-left: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    p.bullets {
+        text-align: left;
+        font-size: 13px;
+        font-weight: 300;
+        color: #033048;
+        padding-left: 100px;
+        padding-bottom: 20px;
+        line-height: 15px;
+    }
+    ul {
+        text-align: left;
+        font-size: 13px;
+        font-weight: 300;
+        color: #033048;
+        padding-left: 130px;
+        padding-bottom: 20px;
+        line-height: 15px;
+        list-style-type: disc;
+    }
+    #quote {
+        font-family: 'Open Sans', sans-serif;
+        background-image: url("images 1/testimonial_bg.jpg");
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        padding bottom: 20px;
+        height: 220px;
+    }
+    .quote {
+        font-weight: 300;
+        font-style: italic;
+        font-size: 18px;
+        text-align: center;
+        color: white;
+        padding bottom: 10px;
+        padding top: 20px;
+        line-height: 24px;
+    }
+    .name {
+        font-style: normal;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+    
+    #sign {
+        background-color: #f9e42e;
+        padding: 25px;
+    }
+    h4 {
+        font-family: 'Open Sans', sans-serif;
+        background-color: #033048;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 900;
+        border-radius: 5px;
+        width: 100px;
+        color: white;
+        padding: 15px 50px;
+        margin: auto;
+    }
+    h5 {
+        font-weight: 800;
+        font-size: 24px;
+        color: #f9e42e;
+        text-align: center;
+        padding-top: 30px;
+    }
+    p.bottom {
+        font-size: 9px;
+        text-align: center;
+        font-weight: 600;
+        color: white;
+        padding-top: 30px;
+    }
+    #footer {
+        font-family: 'Open Sans', sans-serif;
+        background-color: #121212;
+        text-align: center;
+        padding-bottom: 10px;
+    }
