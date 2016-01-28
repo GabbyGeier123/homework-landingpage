@@ -1,26 +1,27 @@
 $(document).ready(function(){
 
-var city = $("#city-type").val();
 	
 $("#submit-btn").click(changeBG);
 
 function changeBG(event) {
 	event.preventDefault();
+	
+	var city = $("#city-type").val();
 
-	if (city == "San Francisco" || "SF" || "Bay Area") {
-	$("body").css("background", "url(images/sf.jpg)");
+	if (city == "San Francisco" || city == "SF" || city == "Bay Area") {
+	$("body").css("background-image", "url(images/sf.jpg)");
 }
 	//FIGURE OUT how to make the background image NOT repeat/cover
-	else if (city == "New York" || "NYC" || "New York City") {
+	else if (city == "New York" || city == "NYC" || city == "New York City") {
 	$("body").css("background", "url(images/nyc.jpg)");
 }
-	else if (city == "Los Angeles" || "LA" || "LAX") {
+	else if (city == "Los Angeles" || city == "LA" || city =="LAX") {
 	$("body").css("background", "url(images/la.jpg)");
 }
-	else if (city == "Austin" || "ATX") {
+	else if (city == "Austin" || city =="ATX") {
 	$("body").css("background", "url(images/austin.jpg)");
 }
-	else if (city == "Sydney" || "SYD") {
+	else if (city == "Sydney" || city =="SYD") {
 	$("body").css("background", "url(images/sydney.jpg)");
 }
 	else {
