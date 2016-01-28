@@ -31,7 +31,6 @@ function changeBG(event) {
 //1. User enters name of city in form
 //2. User clicks update button
 //3. Background image changes to city they entered 
-//4. Submission form goes back to "placeholder" text
 
 });	
 
