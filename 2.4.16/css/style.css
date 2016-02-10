@@ -1,0 +1,20 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic');
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 30px;
+	font-weight: bold;
+	color: blue;
+}
+form {
+	text-align: center;
+	padding-top: 100px;
+
+}
+ul {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding-top: 80px;
+}
